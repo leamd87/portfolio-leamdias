@@ -1,0 +1,260 @@
+
+
+body {
+  background-color: #5885AF;
+  margin: 0;
+  }
+  
+  header {
+    background-color: #C4DBE0;
+    padding: 40px 62px;
+    margin-bottom: 10px;
+  }
+  
+  main{
+    padding: 40px 70px;
+    display: flex;
+  }
+  
+
+  h1, h2, h3, body, p {
+    margin:0;
+  }
+  
+  h2, h3, .periodo{
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 55px;
+  }
+  
+  h1 span{
+    font-weight: bold;
+  }
+  
+  h2{
+  font-size: 20px;
+  }
+  
+  h3{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  h3 span{
+    font-weight: bold;
+  }
+  
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(103, 108, 110);
+  }
+
+  ul, ol{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  footer{
+    background-color: #274472;
+    color: wheat;
+    padding: 57.6px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    height: 36px;
+    font-weight: bold;
+  }
+
+  .t60{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .dados {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  
+  .foto {
+    border: 4px solid #274472;
+    border-radius: 50%;
+    margin-bottom: -100px;
+    margin-right: 24px;
+  }
+ 
+  .coluna-menor{
+    margin-top:48px;
+    width: 288px;
+    }
+  
+  .coluna-menor li{
+    margin-top: 32px;
+    display: flex;
+    
+  }
+  
+  .linha{
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+  }
+  
+  .experiencias .linha{
+  border-color: #274472;
+  }
+  
+  .periodo{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000C66;
+    margin-left:28px;
+  }
+  
+  .conteudo{
+    display: inline-block;
+  }
+    
+  .formacao{
+    margin-top: 32px;
+    display: inline-block;
+  }
+  
+  
+  .formacao .linha{
+  border-color: #274472;
+  }
+  
+  .conteudo .link-contato{
+    font-weight:500;
+    color: #000C66;
+    text-decoration: none;
+    margin-left: 10px
+  }
+  
+  .contato .linha{
+  border-color: #274472;
+  }
+  
+  .contato{
+    margin-top: 32px;
+    margin-left: 15px;
+  }
+  
+  .espaco{
+    margin-left:10px;
+  }
+
+  .coluna-maior{
+    margin-top:48px;
+    margin-left: 24px;
+    font-size:48px;
+  }
+
+  .habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+  .coluna-maior h2{
+    font-size:32px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    
+  }
+
+  .habilidade{
+    background-color: #C4DBE0;
+    border-radius: 16px;
+    padding: 28px;
+    margin: 12px;
+    width: 250px;
+  }
+
+  .habilidade h3{
+    font-size:24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+  }
+  
+  .habilidade p{
+    font-size: 15px;
+  }
+    
+  .habilidade li:first-child{
+    margin-top: 0;
+  }
+
+  .habilidade li{
+    margin-top:32px;
+    width: 254px;
+  }
+
+  
+  .progresso{
+    width: 100%;
+    display: flex;
+  
+  }
+
+  .barra{
+    width:20%;
+    margin-top: 8px;
+    height: 4px;
+    background-color: rgb(74, 123, 216);
+  }
+
+  .incompleto {
+    opacity: 0.2;
+  }
+
+  .certificados{
+    display: flex;
+    flex-direction: wrap;
+    }
+
+   .certificado .site{
+      display: inline-block;
+      text-decoration: none;
+      background-color: #274472;
+      color: white;
+      padding: 8px 24px;
+      font-family: 'Open Sans', sans-serif;
+      border-radius: 4px;
+      text-align: center;
+      width: 36 px;
+      height: 10 px;
+      margin-top: 24px;
+      font-size: 18px;
+      border: solid #189AB4;
+    }
+
+    .certificado .logo{
+      border: solid #274472;
+      border-radius: 10px;
+
+    }
+
+    .certificado{
+      width: 333px;
+      padding: 24px;
+      background-color: #C3E0E5;
+      border-radius: 16px;
+      margin: 12px;
+    }
+    .certificado h3{
+      font-size: 24px;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      font-weight: 500;
+    }
+
+    .certificado p{
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
